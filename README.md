@@ -85,8 +85,30 @@ This logs every successful and failed login attempt for security monitoring and 
 
 ---
 
+## 📁 Project Structure
+
+📁 images/
+├── ou-creation-powershell.png  
+├── user-creation-powershell.png  
+├── GPO-linked-to-HR.png  
+├── GPO-Configuration.png  
+├── Security-Setting-Enforce.png  
+README.md
 
 ---
 
-## 📁 Project Structure
+## 🚀 How to Use This Lab
+
+This lab can be recreated using a Hyper-V or VirtualBox environment with:
+- 1 Domain Controller VM (Windows Server 2019 or later)
+- 1 or more Windows 10/11 client VMs
+- Network set to internal or bridged for domain communication
+
+---
+
+## 📌 Author
+
+**Adekunle Felix Taiwo**  
+🔗 [LinkedIn](https://www.linkedin.com/in/felixtaiwo)  
+📂 [Other Projects](https://github.com/TAdekunleF)
 
