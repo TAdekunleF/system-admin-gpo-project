@@ -44,9 +44,47 @@ Designed to demonstrate real-world IT infrastructure setup and endpoint manageme
 
 ![Software Deployment](images/GPO-Configuration.png)
 
-### Password Policy Enforcement
+## 🛡️ Security Policies Enforced via GPO
 
+The following security policies were configured through Group Policy to harden user workstations and enforce organizational standards:
+
+### 🔐 Password Policy Settings
+
+| Policy Setting                          | Value                  |
+|----------------------------------------|------------------------|
+| Enforce password history               | 5 passwords remembered |
+| Maximum password age                   | 30 days                |
+| Minimum password age                   | 29 days                |
+| Minimum password length                | 8 characters           |
+| Password must meet complexity rules    | Enabled                |
+| Store passwords using reversible encryption | Not defined       |
+
+📸 _Password Policy Screenshot:_  
 ![Password Policy](images/Security-Setting-Enforce.png)
+
+---
+
+### 🚫 User Interface Restrictions
+
+| Policy                                   | Status     |
+|------------------------------------------|------------|
+| Disable Control Panel and Settings App   | Enabled    |
+| Prevent access to Command Prompt         | Enabled    |
+
+These settings ensure users cannot tamper with system configurations or execute unauthorized scripts or commands.
+
+---
+
+### 📋 Audit Policy (Security Logging)
+
+| Policy               | Status  |
+|----------------------|---------|
+| Audit logon events   | Enabled |
+
+This logs every successful and failed login attempt for security monitoring and compliance auditing.
+
+---
+
 
 ---
 
