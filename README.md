@@ -1,5 +1,8 @@
 # Windows Server Lab: Active Directory, PowerShell Automation & Group Policy
 
+![Status](https://img.shields.io/badge/project-complete-brightgreen)
+![Platform](https://img.shields.io/badge/lab-Hyper--V%20%2F%20VirtualBox-blue)
+
 This hands-on lab simulates a fully functional Windows Server environment built from scratch. It covers the complete deployment of Active Directory, structured Organizational Units (OUs), automated user onboarding with PowerShell, and Group Policy Object (GPO) configurations for software installation, security enforcement, and desktop customization.
 
 Designed to demonstrate real-world IT infrastructure setup and endpoint management skills.
